@@ -22,7 +22,7 @@ matplotlib.use('agg')
 import matplotlib.pyplot as plt
 from matplotlib_scalebar.scalebar import ScaleBar
 
-import Parser._dm3_lib_modified as dm3
+import datastore_generic_uploader.Parser._dm3_lib_modified as dm3
 
 
 def parse_tem(files: Union[list, tuple], create_preview: bool = True) -> dict[str, Union[str, float, int]]:

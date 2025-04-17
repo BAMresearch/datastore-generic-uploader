@@ -20,12 +20,7 @@ from datetime import datetime
 
 from pybis import Openbis  # See https://pypi.org/project/PyBIS/
 
-import Parser.DLSParser
-import Parser.IRParser
-import Parser.NMRParser
-import Parser.SEMParser
-import Parser.SpectramaxParser
-import Parser.TEMParser
+from datastore_generic_uploader.Parser import DLSParser, IRParser, NMRParser, SEMParser, SpectramaxParser, TEMParser
 
 
 class GUI:
@@ -452,8 +447,3 @@ class GUI:
             if self.o is not None:
                 self.o.logout()
 
-
-if __name__ == '__main__':
-    root = tk.Tk()
-    app = GUI(root)
-    app.run()

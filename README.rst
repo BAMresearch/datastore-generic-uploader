@@ -89,9 +89,9 @@ How to run (fixme)
 ----------
 After installation, the program can be run by simply double-clicking the `OpenBISUploadHelper.bat` file (on Windows), or by activating the virtual environment and running the script from the command line. For Windows:
 ```commandline
-cd OpenBIS_Upload_Helper
+cd datastore-generic-uploader/src
 venv\Scripts\activate
-python OpenBISUploadHelper.py
+python -m datastore-generic-uploader
 ```
 
 How to use
