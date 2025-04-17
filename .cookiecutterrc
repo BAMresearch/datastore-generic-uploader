@@ -1,0 +1,29 @@
+# This file exists so you can easily regenerate your project.
+# run:
+#  (cd ..; cookiecutter -f --config-file=datastore-generic-uploader/.cookiecutterrc gh:BAMresearch/yapy-cookiecutter)
+# or without answering questions:
+#  (cd ..; cookiecutter -f --config-file=datastore-generic-uploader/.cookiecutterrc --no-input gh:BAMresearch/yapy-cookiecutter)
+
+default_context:
+    author_count:              '2'
+    full_names:                'Bastian Rühle, Ingo Breßler'
+    emails:                    'bastian.ruehle@bam.de, ingo.bressler@bam.de'
+    websites:                  ','
+    project_name:              'DataStore Generic Uploader'
+    repo_name:                 'datastore-generic-uploader'
+    repo_hosting:              'github.com'
+    repo_hosting_domain:       'github.com'
+    repo_userorg:              'BAMresearch'
+    docs_url:                  'https://BAMresearch.github.io/datastore-generic-uploader'
+    repo_main_branch:          'main'
+    package_name:              'datastore_generic_uploader'
+    distribution_name:         'datastore-generic-uploader'
+    project_short_description: 'A Data Store upload helper with flexible choice of object types and their parents/children dependencies.'
+    release_date:              'today'
+    year_from:                 '2025'
+    year_to:                   '2025'
+    version:                   '0.1.0'
+    pypi_host:                 'test.pypi.org'
+    license:                   'MIT license'
+    sphinx_theme:              'furo'
+    extra_context:             {'exclude_existing': "['AUTHORS.rst', 'CHANGELOG.md', 'src/datastore_generic_uploader/__init__.py']"}
