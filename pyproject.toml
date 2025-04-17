@@ -2,11 +2,10 @@
 name = "datastore-generic-uploader"
 description = "A Data Store upload helper with flexible choice of object types and their parents/children dependencies."
 dynamic = ["version", "readme"]
-license = {text = "MIT license"}
+license = "MIT"
 classifiers = [
   # complete classifier list: http://pypi.python.org/pypi?%3Aaction=list_classifiers
   "Development Status :: 4 - Beta",
-  "License :: OSI Approved :: MIT License",
   "Operating System :: Unix",
   "Operating System :: POSIX",
   "Operating System :: MacOS",
