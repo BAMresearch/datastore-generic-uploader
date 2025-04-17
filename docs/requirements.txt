@@ -3,3 +3,4 @@ furo
 myst_parser
 toml
 numpy
+pybis
