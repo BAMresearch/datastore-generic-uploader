@@ -76,23 +76,21 @@ Folder Structure
 
 Installation (fixme)
 ------------
-Clone (or download) the repository, set up and activate a virtual environment, and install the packages from `requirements.txt`. For Windows:
-```commandline
-git clone https://github.com/BAMresearch/datastore-generic-uploader
-cd datastore-generic-uploader
-python -m venv .\venv
-venv\Scripts\activate
-pip install -r requirements.txt
-```
+Clone (or download) the repository, set up and activate a virtual environment, and install the packages from `requirements.txt`. For Windows::
+
+    git clone https://github.com/BAMresearch/datastore-generic-uploader
+    cd datastore-generic-uploader
+    python -m venv .\venv
+    venv\Scripts\activate
+    pip install -r requirements.txt
 
 How to run (fixme)
 ----------
-After installation, the program can be run by simply double-clicking the `OpenBISUploadHelper.bat` file (on Windows), or by activating the virtual environment and running the script from the command line. For Windows:
-```commandline
-cd datastore-generic-uploader/src
-venv\Scripts\activate
-python -m datastore-generic-uploader
-```
+After installation, the program can be run by simply double-clicking the `OpenBISUploadHelper.bat` file (on Windows), or by activating the virtual environment and running the script from the command line. For Windows::
+
+    cd datastore-generic-uploader/src
+    venv\Scripts\activate
+    python -m datastore-generic-uploader
 
 How to use
 ----------
